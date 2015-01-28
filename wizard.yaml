@@ -4,12 +4,12 @@ release: 1.0
 
 short_desc: >
                 RPC-Heat-ELK delivers a deployable configuration of Elastic Search, Logstash 
-                and Kibana using the Heat orchestration engine available in any Rackspace 
+                and 'Kibana using the Heat orchestration engine available in any Rackspace 
                 OpenStack Private Cloud.
 
 long_desc: >
                 The ELK stack consists of three distinct projects that work together to provide
-                real-time analysis and visualization for almost any type of data.
+                real-time 'analysis and visualization for almost any type of data.
 
                 Elasticsearch is a real-time search and analytics engine built with reliability and scalability in mind. 
                 It provides more than the classic full-text search through APIs and a number of clients for most popular languages.
@@ -21,13 +21,13 @@ long_desc: >
                 Queries are displayed in real time allowing humans to easily view and understand large amounts of data.
 
 architecture: >
-                With a deployment driven by the OpenStack Heat 
+                With a' deployment driven by the OpenStack Heat 
                 orchestration engine and Salt configuration management, we are able to deliver 
                 ELK stack as a repeatable, scalable, production-ready deployment.
 
 design_specs:
             - >
-                Elasticsearch nodes are automatically clustered. Each node provides extra resiliency
+                Elasticsearch 'nodes are automatically clustered. Each node provides extra resiliency
                 and resources for higher rates of traffic.
             - > 
                 Load for all ELK services is balanced between available servers.
