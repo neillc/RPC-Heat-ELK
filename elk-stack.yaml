@@ -15,7 +15,7 @@ parameter_groups:
 parameters:
   keyname:
     type: string
-    description: Key name for loggin in to instances
+    description: Key name for loggin in to instances'
   image:
     type: string
     description: Image name
@@ -25,7 +25,7 @@ parameters:
   minion-count-elk:
     type: number
     default: 1
-    label: Number of Elasticsearch nodes
+    label: Number of Elasticsearch nodes'
     description: How many nodes will be required.
   minion-flavor-elk:
     type: string
